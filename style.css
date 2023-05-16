@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+span{
+    color: #0088ff;
+}
+body{
+    background-color: #000000;
+}
+.header__body {
+    background-color: black;
+    margin: 0 auto;
+    padding: 17px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid indigo;
+    border-right-style:none;
+    border-left-style: none;
+    border-top-style:none;
+}
+.header__logo {
+    color:indigo;
+    font-family:fantasy;
+    font-size: 30px;
+}
+.log{
+    width: 38px;
+    height: 32px;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+.header__menu-link {
+    margin-left: 30px;
+}
+.header__menu-link a {
+    color:white;
+    font-size: 20px;
+    font-weight: 600px;
+    font-family:sans-serif;
+}
+.header__menu-link a:hover {
+    text-decoration:underline;
+    color:indigo;
+}
+.header_form {
+    width:400px;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+}
+input{
+    padding:4px 10px;
+    border-radius: 40px;
+    font-size:20px;
+}
+.search {
+    width: 75%;
+}
+.material-symbols-outlined{
+    border-radius: 40px;
+    background-color: indigo;
+    color:white;
+    margin-left: 20px;
+}
+.flag{
+    width: 18px;
+    height: 18px;
+}
+
+/* _______________________________________________________НИЗ_______________________________________________________ */
+
+/***********PAGE-1************/
+.a-box_1 {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 100px 0 0 90px;
+}
+.a-box_1-img {
+    width: 750px;
+    transition: 0.5s;
+}
+.a-box_1-img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px indigo;
+}
+.a-box_1-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}  
+.a-box_1-quest {
+    color: white;
+    padding: 5px;
+    font-size: 19px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+.a-box_1-titel {
+    color: white;
+    padding: 2px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+}
+.a-box_1-line {
+    border-left: 1px solid white;
+    padding: 5px;
+}
+.a-box_1-text_box {
+    color: white;
+}
+.a-box_1-titel-2 {
+    width: 400px;
+    color: white;
+    padding: 7px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.a-box_1-text {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+}
+/***************PAGE-2*******************/
+.a-box_2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.a-box_2-main {
+    margin-left: 80px;
+}
+.a-box_2-titel {
+    color: white;
+    padding: 5px;
+    font-size: 19px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+.a-box_2-second_titel {
+    color: white;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+}
+.a-box_2-line {
+    border-bottom: 1px solid white;
+}
+.a-box_2-text {
+    color: white;
+    margin-left: 300px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+}
+.a-box_2-block{
+    display: flex;
+    align-items: center;
+}
+.a-box_2-span{
+    color: white;
+    transition: 0.5s;
+}
+.a-box_2-span-2{
+    color: white;
+    transition: 0.5s;
+}
+.a-box_2-img {
+    width: 500px;
+    align-self: flex-end;
+    transition: 0.5s;
+}
+.a-box_2-img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px indigo;
+}
+.a-box_2-block:hover .a-box_2-span{
+    transform: translateX(-50px)  rotate(0.5turn );
+    color: indigo;
+}
+.a-box_2-block:hover .a-box_2-span-2{
+    transform: translateX(50px)  rotate(0.5turn );
+    color: indigo;
+}
+/***********************BUTTON*********************/
+    .a-box_2-button_box-main{
+        margin: 0 550px;
+        margin-bottom: 300px;
+    }
+    .a-box_2-cloud{
+        width: 300px;
+        height: 200px;
+        margin-left: 350px;
+        opacity: 0;
+        transition: 0.5s;
+        transform: translateY(20px);
+    }    
+    .a-box_2-button_box{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }    
+    .a-box-2-button-text{
+        color: indigo;
+        position: absolute;
+        width: 200px;
+        left: 405px;
+        top: -140px;
+        font-size: 25px;
+        font-weight: 700;
+        font-family: 'Lato', sans-serif;
+        transition: 0.5s;
+        opacity: 0;
+        transform: translateY(20px);
+    }    
+    .a-box_2-character {
+        width: 150px;
+        margin-left: 200px;
+        transition: 0.5s;
+        margin-bottom: 10px;
+    }
+    .a-box_2-button{
+        color: blueviolet;
+        width: 370px;
+        height: 70px;
+        font-size: 40px;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 3px;
+        border-radius: 10px;
+        border: 4px solid indigo;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .a-box_2-button:hover{
+        box-shadow: 0 0 30px blueviolet;
+        color: white;
+        background-color: blueviolet;
+        border: 4px solid white;
+    }
+    .a-box_2-button_box:hover .a-box_2-character{
+        transform: scale(1.2);
+    }
+    .a-box_2-button_box-main:hover .a-box_2-cloud{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    .a-box_2-button_box-main:hover .a-box-2-button-text{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+/* ______________________________________________ДНО____________________________________________________________________ */
+.ph_okno__subscription{
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'Bebas Neue';
+    text-align: center;
+}
+.ph_game-box_in_ps5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.ph_game_in_ps5{
+    border: 3px solid #1500ff;
+    width: 300px;
+    height: 400px;
+    background-color: #000000;
+    transition: 0.5s;
+}
+.ph_game_in_ps5_img{
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    margin: 0 auto;
+}
+.ph_game_in_ps5_text1{
+    font-family: 'Bebas Neue';
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+}
+.ph_game_in_ps5_text2{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.ph_game_in_ps5_text3{
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    height: 40px;
+    background-color: #1500ff;
+    border-radius: 5px 5px 5px 5px;
+    margin: 60px auto;
+    text-align: center;
+    line-height: 35px;
+    color: #ffffff;
+}
+.ph_game_in_ps5_text32{
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    height: 40px;
+    background-color: #1500ff;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    line-height: 35px;
+    color: #ffffff;
+    margin: 15px auto;
+}
+.ph_game_in_ps5_text23{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.ph_game_in_ps5:hover{
+    transform: scale(1.1);
+}
+.ph_nexs_in_game{
+    margin-top: 250px;
+    position: relative;
+}
+.ph_news_title_text{
+    color: #ff0000;
+    font-size: 60px;
+    font-family: 'Bebas Neue';
+    text-align: center;
+}
+.ph_news_game_box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+.ph_news_game_box_information{
+    width: 400px;
+    height: 400px;
+    border: 3px solid #ff0000;
+    transition: 0.3s;
+}
+.ph_news_game_box_information:hover{
+    transform: scale(1.1);
+}
+.ph_news_game_box_information_img{
+    width: 100% ;
+    background-size: cover;
+}
+.ph_news_game_box_information_text1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    margin: 20px auto;
+}
+.ph_news_game_box_information_text2{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    width: 200px;
+    height: 30px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    margin: 50px auto;
+    line-height: 30px;
+}
+.ph_news_game_box_information_text2:hover{
+    color: #3300ff;
+}
+.ph_news_game_box_information:hover .ph_news_game_box_information_text2{
+    animation: ph_knopka 2s forwards;
+}
+@keyframes ph_knopka{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-15deg)
+    }
+    50%{
+        transform: rotate(15deg)
+    }
+    75%{
+        transform: rotate(10deg)
+    }
+    90%{
+        transform: rotate(-10deg)
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.ph_footer{
+    background-color: #979797;
+    width: 100%;
+    height: 400px;
+}
+.ph_footer_block {
+    width: 1300px;
+    margin: 0 auto;
+}
+.ph_footer_block_box1{
+    margin-top: 50px;
+}
+.ph_footer_block_box1_title_text {
+    color: #55fd2b;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+}
+.ph_footer_block_box1_text {
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    color: #ffffff;
+    transition: 0.4s;
+    position: relative;
+    transition: 0.3s;
+}
+.ph_footer_block_box1_text::after{
+    content: '';
+    position: absolute;
+    transition: 0.5s;
+}
+.ph_footer_block_box1_text:hover::after{
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+    bottom: -5px;
+    right: 0;
+}
+.ph_footer_block_box2{
+    margin-top: 50px;
+}
+.ph_footer_block_box2_title_text {
+    color: #55fd2b;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+}
+.ph_footer_block_box2_text {
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.ph_footer_block_box3 {
+    margin-top: 50px;
+}
+.ph_footer_block_box3_text {
+    color: #55fd2b;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+}
+.ph_footer_block_box_img {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.ph_strochka {
+    border-top: 2px solid #484848;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.ph_strochka_box_text{
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.ph_footer_block-box{
+    display: flex;
+    justify-content: space-between;
+}
+.ph_strlochka_box {
+    display: flex;
+    align-items: center;
+}
+.ph_strlochka_a {
+    width: 1000px;
+    height: 50px;
+    background-color: #979797;
+    border-radius: 10px;
+    margin: 100px auto; 
+    transition: 0.4s;
+}
+.ph_strlochka1 {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    transform: translateX(500px);
+}
+.ph_strlochka_a:hover{
+    transform: scale(1.2);
+    background-color: #ff0000;
+}
